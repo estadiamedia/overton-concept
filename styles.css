@@ -1,3 +1,4 @@
+/* (c) 2026 ESTADIA. All rights reserved. Proprietary concept: not licensed for reuse or reproduction. */
 /* Overton Retreat — mock-up styles
    Layout: full-bleed cinematic bands alternating with calm, centered reading moments.
    Swap any placeholder by dropping an <img> or <video> inside a .ph frame. */
@@ -453,3 +454,12 @@ html.unlocked .splash { opacity: 0; visibility: hidden; pointer-events: none; }
 @keyframes shake { 20%, 60% { transform: translateX(-6px); } 40%, 80% { transform: translateX(6px); } }
 .splash .conf { position: absolute; bottom: max(24px, env(safe-area-inset-bottom, 0px)); left: 0; right: 0; font-size: 10px; letter-spacing: .24em; text-transform: uppercase; color: var(--mist); opacity: 0; animation: fade 1.4s var(--ease) 2.2s forwards; }
 @media (prefers-reduced-motion: reduce) { .estadia, .splash .rule, .splash .presents, .splash h1, .splash form, .splash .conf { opacity: 1; } }
+
+/* Concept / copyright marks */
+.concept-tag {
+  position: fixed; z-index: 30; right: max(10px, env(safe-area-inset-right, 0px)); top: 50%; margin: 0;
+  transform: translateY(-50%) rotate(180deg); writing-mode: vertical-rl;
+  font-size: 9px; letter-spacing: .32em; text-transform: uppercase; color: var(--mist); opacity: .55; pointer-events: none;
+}
+.sr-note { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; margin: 0; }
+@media (max-width: 600px) { .concept-tag { font-size: 8px; right: 4px; opacity: .4; } }

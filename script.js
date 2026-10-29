@@ -1,3 +1,4 @@
+/* (c) 2026 ESTADIA. All rights reserved. Proprietary concept code: not licensed for reuse, reproduction or derivative works. */
 (function () {
   // Private splash: soft password gate (client-side only)
   var gate = document.getElementById('gate');
