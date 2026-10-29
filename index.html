@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Overton Retreat</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="A private, gated retreat on Long Mountain, Tennessee. Two spring-fed lakes, bluff and lake view homesites, 90 minutes from Nashville.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>try{if(localStorage.getItem("ov-ok")==="1")document.documentElement.classList.add("unlocked")}catch(e){document.documentElement.classList.add("unlocked")}</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="laurel" viewBox="0 0 170 108"><g fill="none" stroke="currentColor" stroke-width="1"><g id="lb"><path d="M74 100C44 94 24 72 26 26"/><ellipse cx="64" cy="96" rx="7" ry="2.6" transform="rotate(-12 64 96)"/><ellipse cx="54" cy="92" rx="7" ry="2.6" transform="rotate(-28 54 92)"/><ellipse cx="45" cy="86" rx="7" ry="2.6" transform="rotate(-40 45 86)"/><ellipse cx="38" cy="78" rx="7" ry="2.6" transform="rotate(-52 38 78)"/><ellipse cx="32" cy="69" rx="7" ry="2.6" transform="rotate(-63 32 69)"/><ellipse cx="28" cy="59" rx="7" ry="2.6" transform="rotate(-74 28 59)"/><ellipse cx="26" cy="49" rx="7" ry="2.6" transform="rotate(-84 26 49)"/><ellipse cx="26" cy="39" rx="7" ry="2.6" transform="rotate(-94 26 39)"/><ellipse cx="27" cy="29" rx="6" ry="2.4" transform="rotate(-104 27 29)"/></g><use href="#lb" transform="translate(170 0) scale(-1 1)"/></g></symbol></svg>
+
+<div class="splash" id="splash" role="dialog" aria-modal="true" aria-labelledby="splash-title">
+  <div class="splash-in">
+    <div class="estadia" aria-label="ESTADIA">ESTADIA</div>
+    <span class="rule" aria-hidden="true"></span>
+    <span class="label presents">A private concept for</span>
+    <h1 id="splash-title">Overton Retreat</h1>
+    <form id="gate" novalidate>
+      <label for="pw" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Password</label>
+      <div class="pw-row">
+        <input id="pw" type="password" autocomplete="off" placeholder="Enter password">
+        <button class="go" type="submit" aria-label="Enter"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></button>
+      </div>
+      <p class="pw-err" role="alert"></p>
+    </form>
+  </div>
+  <p class="conf">Prepared by ESTADIA · Confidential concept · 2026</p>
+</div>
+
+<header class="site-head intro-head">
+  <div class="head-row">
+    <nav class="nav left" aria-label="Primary">
+      <a href="homesites.html">Homesites</a>
+      <a href="life.html">Life at Overton</a>
+    </nav>
+    <a class="wordmark" href="./" aria-label="Overton Retreat home"><span class="w1">OVERTON</span><span class="w2">RETREAT</span></a>
+    <nav class="nav right" aria-label="Secondary">
+      <a href="about.html">About</a>
+      <a href="#contact">Contact</a>
+      <button class="btn" type="button" data-open-tour>Private tour</button>
+      <button class="nav menu-btn" type="button" aria-expanded="false" style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;background:none;border:0;color:var(--ivory);min-height:44px;cursor:pointer">Menu</button>
+    </nav>
+  </div>
+</header>
+<nav class="mobile-nav" hidden aria-label="Mobile">
+  <a href="homesites.html">Homesites</a>
+  <a href="life.html">Life at Overton</a>
+  <a href="about.html">About</a>
+  <a href="#contact">Contact</a>
+  <button class="btn solid" type="button" data-open-tour style="justify-self:start;margin-top:12px">Request a private tour</button>
+</nav>
+
+<main>
+  <!-- HERO FILM: replace the placeholder with
+       <video autoplay muted loop playsinline poster="media/hero-poster.jpg" src="media/hero.mp4"></video>
+       inside the .ph frame below. -->
+  <section class="hero" aria-label="Overton Retreat film">
+    <div class="ph"><video autoplay muted loop playsinline preload="auto" poster="media/hero-poster.jpg" src="media/hero.mp4" aria-hidden="true"></video><span class="ph-tag film-tag">Hero film, looping</span></div>
+    <div class="hero-inner">
+      <p class="tag-line">A private retreat on the Cumberland Plateau</p>
+      <a class="btn" href="homesites.html">Explore the homesites</a>
+      <span class="scroll-cue" aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap narrow center stack rv" style="justify-items:center">
+      <svg class="mark" viewBox="0 0 60 36" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true"><path d="M2 22 L18 8 L26 15 L36 4 L58 22"/><path d="M2 26 H58"/><path d="M12 30 H48" opacity=".6"/><path d="M22 34 H38" opacity=".35"/></svg>
+      <p class="lede">High on Long Mountain, at the edge of the Cumberland Plateau, a gated community of bluff and lake view homesites set among two spring-fed lakes and miles of private trail. Ninety minutes from Nashville, and a world apart from it.</p>
+      <div class="facts"><span>Gated</span><span>Two spring-fed lakes</span><span>Owners since 2007</span></div>
+    </div>
+  </section>
+
+  <section class="band tight" style="padding-top:0">
+    <div class="wrap">
+      <div class="creds rv">
+        <div class="cred"><svg class="icon" viewBox="0 0 30 30" aria-hidden="true"><path d="M4 8l7-3 8 3 7-3v17l-7 3-8-3-7 3z"/><path d="M11 5v17M19 8v17"/><path d="M6.5 15.5c2-1.5 3.5 1 5.5-.5" stroke-dasharray="1.5 2"/><circle cx="22.5" cy="14" r="1.6"/></svg><span class="label">Master plan</span><h3>Chip Webster Architecture</h3><p>Master plan and architectural guidelines by the firm behind homes in Nantucket, Boston and Vail.</p></div>
+        <div class="cred"><svg class="icon" viewBox="0 0 30 30" aria-hidden="true"><path d="M3 14L15 4l12 10"/><path d="M6 11.5V25M24 11.5V25"/><path d="M6 15h18"/><path d="M10 15l5-4 5 4"/><path d="M3 25h24"/></svg><span class="label">The pavilion</span><h3>Hand-cut timber, copper roof</h3><p>An award-winning gathering place crafted by Blue Ridge Timberwrights on the north shore of the lake.</p></div>
+        <div class="cred"><svg class="icon" viewBox="0 0 30 30" aria-hidden="true"><path d="M3 10c3-2.5 5 2.5 8 0s5 2.5 8 0 5 2.5 8 0"/><path d="M3 16c3-2.5 5 2.5 8 0s5 2.5 8 0 5 2.5 8 0"/><path d="M3 22c3-2.5 5 2.5 8 0s5 2.5 8 0 5 2.5 8 0" opacity=".55"/></svg><span class="label">The water</span><h3>Electric motors only</h3><p>Two private, spring-fed lakes kept quiet for canoes, fishing and the sound of nothing much at all.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bleed zoom" aria-label="The lake at dusk">
+    <div class="ph" style="--lx:70%;--ly:30%"><img src="media/valley-sunset.jpg" alt="" loading="lazy" style="object-position:50% 60%"><span class="ph-tag">Full-bleed still · dock and still water at dusk</span></div>
+    <div class="over"><blockquote class="rv">Every time we visit, we feel lucky to own our retreat just ninety minutes from Nashville.</blockquote><p class="label quiet" style="margin-top:20px">Joe H., homeowner since 2007</p></div>
+  </section>
+
+  <section class="band">
+    <div class="wrap ways">
+      <div class="split">
+        <div class="split-media zoom"><div class="ph" style="--lx:40%;--ly:70%"><img src="media/pond-reeds.jpg" alt="Still water and reeds in early light" loading="lazy" style="object-position:55% 50%"><span class="ph-tag">Still · water and reeds in early light</span></div></div>
+        <div class="split-text rv">
+          <span class="label">By the water</span>
+          <h2>Mornings that start on the lake</h2>
+          <p class="body-copy">Lake view homesites look across private, spring-fed water where only electric motors are allowed. Fish from the shore, paddle out before coffee, walk the trail that circles both lakes.</p>
+          <a class="textlink" href="homesites.html" style="justify-self:start">Lake view homesites</a>
+        </div>
+      </div>
+      <div class="split flip">
+        <div class="split-media zoom"><div class="ph" style="--lx:80%;--ly:20%"><img src="media/overton-bluff-view.jpg" alt="Long view from the bluff across the plateau" loading="lazy" style="object-position:55% 50%"><span class="ph-tag">Still · bluff edge, long view at golden hour</span></div></div>
+        <div class="split-text rv">
+          <span class="label">On the bluff</span>
+          <h2>Evenings at the edge of the plateau</h2>
+          <p class="body-copy">Bluff view homesites sit along the mountain's edge, wooded for privacy and open to the western light. Each is placed to frame the view, with utilities and fiber run underground to the lot line.</p>
+          <a class="textlink" href="homesites.html" style="justify-self:start">Bluff view homesites</a>
+        </div>
+      </div>
+      <div class="split">
+        <div class="split-media zoom"><div class="ph" style="--lx:30%;--ly:40%"><img src="media/overton-pavilion.jpg" alt="Owners gathered under the lakeside pavilion" loading="lazy" style="object-position:47% 50%"><span class="ph-tag">Still · timber pavilion, neighbors at dusk</span></div></div>
+        <div class="split-text rv">
+          <span class="label">Among neighbors</span>
+          <h2>Weekend evenings at the pavilion</h2>
+          <p class="body-copy">Owners drift down to the pavilion on weekend evenings with something to share. Through the year there is music on the mountain, a fall chili cook-off, and a spring fishing tournament on the lake.</p>
+          <a class="textlink" href="life.html" style="justify-self:start">Life at Overton</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band deep">
+    <div class="wrap story">
+      <div class="player zoom">
+        <div class="ph" style="--lx:55%;--ly:45%"><img src="media/rolling-hills.jpg" alt="" loading="lazy" style="object-position:50% 50%"><span class="ph-tag">Story film · the vision of Overton Retreat</span></div>
+        <button class="play" type="button" aria-label="Play the story film"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button>
+      </div>
+      <div class="stack rv">
+        <span class="label">The story</span>
+        <h2 style="font-size:clamp(36px,4vw,56px)">Hear it from the people who built it</h2>
+        <p class="body-copy">Travis Robeson shares the vision behind Overton Retreat, how the land was planned, and why families keep coming back to the mountain year after year.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <div class="voices-head rv">
+        <div class="stack" style="gap:14px"><span class="label">In their words</span><h2>Hear it from the owners</h2></div>
+        <p class="fine" style="max-width:34ch">Some families have been coming up the mountain since 2007. Here is what keeps them coming back.</p>
+      </div>
+      <div class="quotes v2">
+        <figure class="quote feature rv" style="margin:0"><span class="qmark" aria-hidden="true">&ldquo;</span><p>Our children cherished the time they spent here while they were in school, and now they are bringing their own children for visits.</p><figcaption class="who"><span class="init" aria-hidden="true">D</span><span><b>Dave B.</b><small>Homeowner since 2008</small></span></figcaption></figure>
+        <figure class="quote rv" style="margin:0"><span class="qmark" aria-hidden="true">&ldquo;</span><p>The lakes, the trails, the views are all incredible. What surprised us most was the genuine sense of community.</p><figcaption class="who"><span class="init" aria-hidden="true">L</span><span><b>Lucie R.</b><small>Homeowner since 2013</small></span></figcaption></figure>
+        <figure class="quote rv" style="margin:0"><span class="qmark" aria-hidden="true">&ldquo;</span><p>It is a place to slow down, reconnect with nature, and feel part of something timeless.</p><figcaption class="who"><span class="init" aria-hidden="true">J</span><span><b>Joe H.</b><small>Homeowner since 2007</small></span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="band deep" id="about">
+    <div class="wrap split" style="align-items:center">
+      <div class="stack rv">
+        <span class="label">About</span>
+        <h2 style="font-size:clamp(40px,5vw,72px)">Planned to protect the land</h2>
+        <p class="body-copy">The master plan and architectural guidelines were drawn by Chip Webster, an M.I.T.-trained architect with offices in Nantucket, Boston and Vail. Every homesite, road and trail was placed to keep the mountain looking like the mountain.</p>
+        <a class="textlink" href="about.html" style="justify-self:start">Our story</a>
+      </div>
+      <div class="accolades stacked rv" style="align-items:center">
+        <div class="accolade"><svg aria-hidden="true"><use href="#laurel"/></svg><span>Featured in<b>Forbes</b></span></div>
+        <div class="accolade"><svg aria-hidden="true"><use href="#laurel"/></svg><span>Award-winning<b>Pavilion</b></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap arrival">
+      <div class="stack rv">
+        <span class="label">Arrival</span>
+        <h2 style="font-size:clamp(36px,4vw,56px)">Closer than it feels</h2>
+        <p class="body-copy">Long Mountain sits at the edge of the Cumberland Plateau outside McMinnville, Tennessee. Leave Nashville after lunch on Friday and you'll be on the porch before the light goes gold.</p>
+        <div class="drives">
+          <div><h3>Nashville</h3><span><b>90</b>min</span></div>
+          <div><h3>Chattanooga</h3><span><b>90</b>min</span></div>
+          <div><h3>Huntsville</h3><span>About <b>2</b>hrs</span></div>
+          <div><h3>Atlanta</h3><span>About <b>3.5</b>hrs</span></div>
+        </div>
+      </div>
+      <div class="map rv" role="img" aria-label="Map showing Overton Retreat in Middle Tennessee with drive routes to Nashville, Chattanooga, Huntsville and Atlanta">
+        <svg viewBox="40 90 760 800" aria-hidden="true">
+          <path d="M40 480H800" stroke="#EFE9DD" stroke-opacity=".12" stroke-dasharray="2 6" fill="none"/>
+          <path d="M418 480V890" stroke="#EFE9DD" stroke-opacity=".12" stroke-dasharray="2 6" fill="none"/>
+          <text x="60" y="466">TENNESSEE</text><text x="60" y="508">ALABAMA</text><text x="440" y="508">GEORGIA</text>
+          <path class="route" d="M376 276Q230 170 128 132"/>
+          <path class="route" d="M376 276Q470 360 489 465"/>
+          <path class="route" d="M376 276Q240 400 174 561"/>
+          <path class="route" d="M376 276Q560 520 715 855"/>
+          <circle cx="128" cy="132" r="5" fill="#EFE9DD"/><text class="city" x="146" y="128">Nashville</text>
+          <circle cx="489" cy="465" r="5" fill="#EFE9DD"/><text class="city" x="508" y="462">Chattanooga</text>
+          <circle cx="174" cy="561" r="5" fill="#EFE9DD"/><text class="city" x="194" y="566">Huntsville</text>
+          <circle cx="715" cy="855" r="5" fill="#EFE9DD"/><text class="city" x="590" y="838">Atlanta</text>
+          <circle class="ring" cx="376" cy="276" r="14"/><circle class="ring r2" cx="376" cy="276" r="14"/>
+          <path d="M376 290c-10-12-15-20-15-27a15 15 0 0 1 30 0c0 7-5 15-15 27z" fill="#B89A64"/><circle cx="376" cy="263" r="5" fill="#121815"/>
+          <text class="home" x="400" y="262">OVERTON RETREAT</text><text x="400" y="284" style="font-size:12px">LONG MOUNTAIN</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-bleed" id="contact">
+    <div class="ph"><img src="media/overton-bluff-view.jpg" alt="" loading="lazy" style="object-position:50% 60%"></div>
+    <div class="wrap cta-band rv">
+      <span class="label">Private tours, any day of the week</span>
+      <h2>Come see the mountain</h2>
+      <p class="body-copy center">Walk the trails, stand on the bluff, and spend an hour at the pavilion. Tours are arranged personally around your schedule.</p>
+      <button class="btn solid" type="button" data-open-tour>Request a private tour</button>
+      <div class="contact-lines"><span>(931) 815-7053</span><span>info@overtonretreat.com</span><span>McMinnville, Tennessee</span></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="stack" style="gap:16px"><a class="wordmark" href="./" style="justify-items:start"><span class="w1" style="padding-left:0">OVERTON</span><span class="w2" style="padding-left:0">RETREAT</span></a><p class="fine">Long Mountain · McMinnville, Tennessee</p></div>
+      <div><h4 class="label">Explore</h4><ul><li><a href="homesites.html">Homesites</a></li><li><a href="life.html">Life at Overton</a></li><li><a href="about.html">About</a></li></ul></div>
+      <div><h4 class="label">Owners</h4><ul><li><a href="https://www.overtonretreat.com/owners-association" target="_blank" rel="noopener">Owners Association</a></li><li><a href="https://irp.cdn-website.com/4abfc295/files/uploaded/Overton+Retreat+Architectural+Guidelines.pdf" target="_blank" rel="noopener">Architectural guidelines</a></li><li><a href="https://irp.cdn-website.com/4abfc295/files/uploaded/Long+Mountain+Trail+Map.pdf" target="_blank" rel="noopener">Trail map</a></li></ul></div>
+      <div><h4 class="label">Contact</h4><ul><li>(931) 815-7053</li><li>info@overtonretreat.com</li><li><a href="https://www.facebook.com/overtonretreat" target="_blank" rel="noopener">Facebook</a></li></ul></div>
+    </div>
+    <div class="foot-base"><span>© 2026 Overton Retreat</span><span>Concept mock-up by ESTADIA · placeholder imagery</span></div>
+  </div>
+</footer>
+
+<dialog class="tour" id="tour" aria-labelledby="tour-title">
+  <button class="tour-close" type="button" aria-label="Close">×</button>
+  <div class="tour-in">
+    <form novalidate class="stack" style="gap:22px">
+      <span class="label">Private tour</span>
+      <h2 id="tour-title">Visit Overton Retreat</h2>
+      <p class="fine">Tours are hosted personally, any day of the week. Share a few details and we'll be in touch to arrange your visit.</p>
+      <div class="two">
+        <div class="field"><label for="t-name">Name</label><input id="t-name" name="name" autocomplete="name" placeholder="Jordan Ellis"></div>
+        <div class="field"><label for="t-email">Email</label><input id="t-email" name="email" type="email" autocomplete="email" placeholder="jordan@example.com"></div>
+      </div>
+      <div class="two">
+        <div class="field"><label for="t-phone">Phone (optional)</label><input id="t-phone" name="phone" type="tel" autocomplete="tel" placeholder="(615) 555-0142"></div>
+        <div class="field"><label for="t-when">Hoping to visit</label><select id="t-when" name="when"><option>Within the month</option><option>In the next few months</option><option>Just exploring for now</option></select></div>
+      </div>
+      <fieldset class="field"><legend>Drawn to</legend><div class="chips"><button class="chip" type="button" data-value="Bluff view" aria-pressed="false">Bluff view</button><button class="chip" type="button" data-value="Lake view" aria-pressed="false">Lake view</button><button class="chip" type="button" data-value="Not sure yet" aria-pressed="false">Not sure yet</button></div></fieldset>
+      <div class="field"><label for="t-note">Anything we should know</label><textarea id="t-note" name="note" rows="2" placeholder="Weekend home for our family, hoping to build in the next two years"></textarea></div>
+      <p class="err" role="alert"></p>
+      <button class="btn solid" type="submit" style="justify-self:start">Request my tour</button>
+    </form>
+    <div class="thanks" hidden>
+      <span class="label">Request received</span>
+      <h2>Thank you, <span class="thanks-name">friend</span></h2>
+      <p class="body-copy center">We'll reach out personally to find a day that works. Until then, (931) 815-7053 rings straight through.</p>
+    </div>
+  </div>
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
