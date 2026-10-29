@@ -463,3 +463,6 @@ html.unlocked .splash { opacity: 0; visibility: hidden; pointer-events: none; }
 }
 .sr-note { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; margin: 0; }
 @media (max-width: 600px) { .concept-tag { font-size: 8px; right: 4px; opacity: .4; } }
+
+.logo-panel { display: grid; place-items: center; align-content: center; gap: 40px; background: var(--deep); border: 1px solid var(--line); padding: 48px 32px; text-align: center; }
+.logo-panel img { width: min(78%, 360px); height: auto; opacity: .95; }
